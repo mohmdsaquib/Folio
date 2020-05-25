@@ -7,21 +7,22 @@ import emoji from "react-easy-emoji";
 
 const greeting = {
   /* Your Summary And Greeting Section */
-  username: "Saad Pasta",
-  title: "Hi all, I'm Saad",
-  subTitle: emoji("A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."),
-  resumeLink: "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing"
+  username: "Mohd Saquib",
+  title: "Hi all, I'm Saquib",
+  subTitle: emoji("Engineer| Applied Data Science Enthusiast|Blogger|Youtuber"),
+  subTitle:emoji("I use my adaptive problem-solving skill,to boost those Artificial Brains in helping me to solve real-life problems. If you are HIRING, let's connect. I would love to contribute my part in the success of your organization.") 
+  resumeLink: "https://drive.google.com/open?id=1ugqM4O4ZkbBeSIVzEVcrtis42g6JxL4D"
 };
 
 // Your Social Media Link
 
 const socialMediaLinks = {
 
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7"
+  github: "https://github.com/mohmdsaquib",
+  linkedin: "https://www.linkedin.com/in/saquib98/",
+  gmail: "mohdsaquib0998@gmail.com",
+  medium: "https://medium.com/@mohdsaquib0998",
+  Youtube: "https://www.youtube.com/Datumphile"
   // Instagram and Twitter are also supported in the links!
 };
 
@@ -29,11 +30,14 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What i do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "Learning| Applying | Improving",
   skills: [
-    emoji("⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
-    emoji("⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean")
+    emoji("⚡ Working with Machine Learning Algorithms (Linear & Logistic Regression, KNNs, SVMs, Decision Tree, Random Forest, XGBoost"),
+    emoji("⚡ Working with ARIMA and LSTMs for time series forecasting"),
+    emoji("⚡ Working with Libraries like Scikit-learn, Pandas, Numpy, Keras, OpenCV, and Tensorflow")
+    emoji("⚡ Building Models for Computer Vision, Natural Language Processing[NLP]")
+    emoji("⚡ Using Convolutional Neural Networks(CNN) for Image Processing")
+    emoji("⚡ Experimenting with Feature Engineering Techniques")
   ],
 
 /* Make Sure You include correct Font Awesome Classname to view your icon
@@ -41,57 +45,32 @@ https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
     {
-      skillName: "html-5",
-      fontAwesomeClassname: "fab fa-html5"
+      skillName:"Github",
+      fontAwesomeClassname:"fab fa-github"
+    },
+    
+      skillName: "Kaggle",
+      fontAwesomeClassname: "fab fa-kaggle"
     },
     {
-      skillName: "css3",
-      fontAwesomeClassname: "fab fa-css3-alt"
+      skillName: "database",
+      fontAwesomeClassname: "fas fa-database"
     },
     {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
+      skillName: "Analysis",
+      fontAwesomeClassname: "fas fa-chart-bar"
     },
-    {
-      skillName: "JavaScript",
-      fontAwesomeClassname: "fab fa-js"
-    },
-    {
-      skillName: "reactjs",
-      fontAwesomeClassname: "fab fa-react"
-    },
-    {
-      skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
-    },
-    {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
-    },
-    {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
-    },
+
     {
       skillName: "sql-database",
       fontAwesomeClassname: "fas fa-database"
     },
-    {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
-    },
-    {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
-    },
+
     {
       skillName: "python",
       fontAwesomeClassname: "fab fa-python"
-    },
-    {
-      skillName: "docker",
-      fontAwesomeClassname: "fab fa-docker"
     }
+
   ]
 };
 
@@ -101,17 +80,21 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Frontend/Design",  //Insert stack or technology you have experience in
-      progressPercentage: "90%"  //Insert relative proficiency in percentage
+      Stack: "Python",  //Insert stack or technology you have experience in
+      progressPercentage: "80%"  //Insert relative proficiency in percentage
     },
     {
-      Stack: "Backend",
+      Stack: "Data Analytics",
       progressPercentage: "70%"
     },
     {
-      Stack: "Programming",
+      Stack: "Machine Learning",
       progressPercentage: "60%"
-    }
+    },
+    {
+      Stack: "Deep Learning",
+      progressPercentage:"60%"
+    
   ]
 };
 
@@ -122,25 +105,18 @@ const workExperiences = {
   viewExperiences: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",  
-      company: "Facebook",
-      companylogo:  require("./assests/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Data Science Intern",  
+      company: "Datum Guy",
+      companylogo:  require("https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.facebook.com%2FTheDatumGuy%2F&psig=AOvVaw0iL2BUeTBxA_AS1qP4t_0b&ust=1590528714182000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCPjB6av7z-kCFQAAAAAdAAAAABAD"),
+      date: "May 2019 – July 2019",
+      desc: "Boosting Marketing Strategies, Analyzing Customer behaviour using Data Science Techniques and Content Creation in form of interactive blogs"
     },
     {
-      role: "Front-End Developer",   
-      company: "Quora",
+      role: "Industrial Training",   
+      company: "Noida Metro Rail Corporation",
       companylogo: "https://www.referralcandy.com/wp-content/uploads/2017/06/quora-featured-image-2-740x740.png",
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    },
-    {
-      role: "Software Engineer Intern",  
-      company: "Airbnb",
-      companylogo: require("./assests/images/airbnbLogo.jpg"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      date: "May 2019 – June 2019",
+      desc: "Metro rail signaling and train control using CBTC/Communication Based Train Control System"
     },
   ]
 };
@@ -149,8 +125,8 @@ const workExperiences = {
 To know how to get github key look at readme.md */
 
 const openSource = {
-  githubConvertedToken: "Your Github Converted Token",
-  githubUserName: "Your Github Username",
+  githubConvertedToken: "MzFkMGM5MmRkODFhODMzNTJlNDY3MTUzMDE2OWZhY2ExNjBiOWIxMA==",
+  githubUserName: "github.com/mohmdsaquib",
   showGithubProfile :"true" // Set true or false to show Contact profile using Github, defaults to false 
 };
 
@@ -219,14 +195,15 @@ const blogSection = {
 
   blogs: [
     {
-      url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
-      title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
-      description: "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
+      url: "https://medium.com/the-wisdom-1-0/self-driving-car-using-cnn-8c13c2b4c81e",
+      title: "Self Driving Car Using CNN",
+      description: "The implementation of Nvidia paper using Deep Learning model Convolutional Neural Network, using TensorFlow implementation.
+"
     },
     {
-      url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
-      title: "Why REACT is The Best?",
-      description: "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
+      url: "https://medium.com/the-wisdom-1-0/cancer-diagnosis-using-machine-learning-3502b1e41770",
+      title: "Cancer Diagnosis Using Machine Learning",
+      description: "The diagnosis of cancer using different Machine leaning models- KNN, SVM, Logistic Regression and comparison of each model using Log-loss, Confusion Matrix and Accuracy as a metric."
     }
   ]
 };
@@ -234,17 +211,16 @@ const blogSection = {
 // Talks Sections
 
 const talkSection = {
-  title: "TALKS",
-  subtitle: emoji("I LOVE TO SHARE MY LIMITED KNOWLEDGE AND GET A SPEAKER BADGE 😅"),
+  title: "Youtube",
+  subtitle: emoji("I LOVE TO SHARE MY LIMITED KNOWLEDGE AND GET A YOUTUBER BADGE 😅"),
 
   talks: [
     {
-      title: "Build Actions For Google Assistant",
-      subtitle: "Codelab at GDG DevFest Karachi 2019",
-      slides_url: "https://bit.ly/saadpasta-slides",
-      event_url: "https://www.facebook.com/events/2339906106275053/",
+      title: "Expoloratory Data Analysis on Iris Data Set",
+      subtitle: "Explained basic EDA techniques on Iris Data Set",
+      event_url: "https://www.youtube.com/watch?v=DpEQVsUpBb4&t=78s",
       image:
-        "https://scontent.fkhi6-1.fna.fbcdn.net/v/t1.0-9/76714032_1730516240415559_1293494289556307968_o.jpg?_nc_cat=103&_nc_ohc=s5f81rdZd6wAQmqUa52YQBA21MjVOy7e-HN9jI7MspRDC-v5ahEouyInQ&_nc_ht=scontent.fkhi6-1.fna&oh=c29141a9a0de7ff2011a8191f5475a78&oe=5E83127C"
+        "https://www.google.com/url?sa=i&url=http%3A%2F%2Fscikit-learn.org%2Fstable%2Fauto_examples%2Fdatasets%2Fplot_iris_dataset.html&psig=AOvVaw1fj1eBQH6UiRq518PzmsaR&ust=1590530898425000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCMCskb6D0OkCFQAAAAAdAAAAABAD"
     }
   ]
 };
@@ -261,16 +237,10 @@ const podcastSection = {
 
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
-  subtitle: "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-3243454077",
-  email_address: "saadpasta70@gmail.com"
+  subtitle: "Looking forward to connect with me? My Inbox is open for all.",
+  number: "+917985773267",
+  email_address: "mohdsaquib0998@gmail.com"
 };
 
-//Twitter Section
 
-const twitterDetails = {
-
-  userName : "twitter"//Replace "twitter" with your twitter username without @
-  
-};
 export { greeting, socialMediaLinks, skillsSection, techStack, workExperiences, openSource, bigProjects, achievementSection, blogSection, talkSection, podcastSection, contactInfo , twitterDetails};
