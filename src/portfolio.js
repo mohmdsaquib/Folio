@@ -34,9 +34,9 @@ const skillsSection = {
   skills: [
     emoji("⚡ Working with Machine Learning Algorithms (Linear & Logistic Regression, KNNs, SVMs, Decision Tree, Random Forest, XGBoost"),
     emoji("⚡ Working with ARIMA and LSTMs for time series forecasting"),
-    emoji("⚡ Working with Libraries like Scikit-learn, Pandas, Numpy, Keras, OpenCV, and Tensorflow")
-    emoji("⚡ Building Models for Computer Vision, Natural Language Processing[NLP]")
-    emoji("⚡ Using Convolutional Neural Networks(CNN) for Image Processing")
+    emoji("⚡ Working with Libraries like Scikit-learn, Pandas, Numpy, Keras, OpenCV, and Tensorflow"),
+    emoji("⚡ Building Models for Computer Vision, Natural Language Processing[NLP]"),
+    emoji("⚡ Using Convolutional Neural Networks(CNN) for Image Processing"),
     emoji("⚡ Experimenting with Feature Engineering Techniques")
   ],
 
@@ -94,7 +94,7 @@ const techStack = {
     {
       Stack: "Deep Learning",
       progressPercentage:"60%"
-    
+    }    
   ]
 };
 
@@ -197,8 +197,7 @@ const blogSection = {
     {
       url: "https://medium.com/the-wisdom-1-0/self-driving-car-using-cnn-8c13c2b4c81e",
       title: "Self Driving Car Using CNN",
-      description: "The implementation of Nvidia paper using Deep Learning model Convolutional Neural Network, using TensorFlow implementation.
-"
+      description: "The implementation of Nvidia paper using Deep Learning model Convolutional Neural Network, using TensorFlow implementation."
     },
     {
       url: "https://medium.com/the-wisdom-1-0/cancer-diagnosis-using-machine-learning-3502b1e41770",
@@ -243,4 +242,4 @@ const contactInfo = {
 };
 
 
-export { greeting, socialMediaLinks, skillsSection, techStack, workExperiences, openSource, bigProjects, achievementSection, blogSection, talkSection, podcastSection, contactInfo , twitterDetails};
+export { greeting, socialMediaLinks, skillsSection, techStack, workExperiences, openSource, bigProjects, achievementSection, blogSection, talkSection, podcastSection, contactInfo};
