@@ -10,8 +10,8 @@ const greeting = {
   username: "Mohd Saquib",
   title: "Hi all, I'm Saquib",
   subTitle: emoji("Engineer| Applied Data Science Enthusiast|Blogger|Youtuber"),
-  subTitle:emoji("I use my adaptive problem-solving skill,to boost those Artificial Brains in helping me to solve real-life problems. If you are HIRING, let's connect. I would love to contribute my part in the success of your organization.") 
-  resumeLink: "https://drive.google.com/open?id=1ugqM4O4ZkbBeSIVzEVcrtis42g6JxL4D"
+  subTitle:emoji("I use my adaptive problem-solving skill,to boost those Artificial Brains in helping me to solve real-life problems. If you are HIRING, let's connect. I would love to contribute my part in the success of your organization."), 
+  resumeLink: "https://drive.google.com/open?id=1ugqM4O4ZkbBeSIVzEVcrtis42g6JxL4D",
 };
 
 // Your Social Media Link
