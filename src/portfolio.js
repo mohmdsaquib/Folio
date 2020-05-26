@@ -107,7 +107,7 @@ const workExperiences = {
     {
       role: "Data Science Intern",  
       company: "Datum Guy",
-      companylogo:  require("https://www.referralcandy.com/wp-content/uploads/2017/06/quora-featured-image-2-740x740.png"),
+      companylogo: "https://www.referralcandy.com/wp-content/uploads/2017/06/quora-featured-image-2-740x740.png",
       date: "May 2019 – July 2019",
       desc: "Boosting Marketing Strategies, Analyzing Customer behaviour using Data Science Techniques and Content Creation in form of interactive blogs"
     },
