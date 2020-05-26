@@ -240,6 +240,12 @@ const contactInfo = {
   number: "+917985773267",
   email_address: "mohdsaquib0998@gmail.com"
 };
+//Twitter Section
 
+const twitterDetails = {
+
+  userName : "Mo_Saquib_"//Replace "twitter" with your twitter username without @
+  
+};
 
 export { greeting, socialMediaLinks, skillsSection, techStack, workExperiences, openSource, bigProjects, achievementSection, blogSection, talkSection, podcastSection, contactInfo, twitterDetails};
