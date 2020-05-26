@@ -48,7 +48,7 @@ https://fontawesome.com/icons?d=gallery */
       skillName:"Github",
       fontAwesomeClassname:"fab fa-github"
     },
-    
+    {
       skillName: "Kaggle",
       fontAwesomeClassname: "fab fa-kaggle"
     },
